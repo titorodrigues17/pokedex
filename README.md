@@ -1,33 +1,40 @@
-Pokédex
-La Pokédex es una aplicación web que te permite explorar información sobre diferentes Pokémon. Puedes buscar Pokémon por tipo, ver todos los Pokémon disponibles, y obtener detalles como su nombre, imagen, tipos, altura y peso.
+# Guía de la Pokédex
 
-Características
-Exploración por tipo: Puedes filtrar Pokémon por su tipo (por ejemplo, fuego, agua, eléctrico, etc.).
-Ver todos: Muestra todos los Pokémon disponibles en la Pokédex.
-Detalles del Pokémon: Muestra detalles importantes de cada Pokémon, como su nombre, imagen, tipos, altura y peso.
-Tecnologías utilizadas
-HTML: Para la estructura de la página web.
-CSS: Para el diseño y estilizado de la interfaz de usuario.
-JavaScript: Para la funcionalidad interactiva y la integración con la API de Pokémon.
-Funcionamiento
-Al cargar la página, se muestran todos los botones de tipo disponibles y el botón "Ver todos".
-Cuando haces clic en un botón de tipo, se muestran los Pokémon de ese tipo.
-Si haces clic en el botón "Ver todos", se muestran todos los Pokémon disponibles.
-Para cada Pokémon mostrado, se muestran detalles como su nombre, imagen, tipos, altura y peso.
-Cómo ejecutar la aplicación
-No se necesita ninguna instalación especial. Simplemente abre el archivo index.html en tu navegador web y podrás comenzar a explorar la Pokédex.
+## Introducción
 
-bash
-Copy code
-# Clona el repositorio
-git clone https://github.com/tu-usuario/pokedex.git
+Esta guía te ayudará a comprender cómo funciona la Pokédex, una aplicación web que te permite explorar información sobre diferentes Pokémon. 
 
-# Navega hasta el directorio del repositorio
-cd pokedex
+## Estructura del Proyecto
 
-# Abre index.html en tu navegador web
-Capturas de pantalla
-Inserta aquí algunas capturas de pantalla de la Pokédex para mostrar cómo se ve la interfaz de usuario y la funcionalidad.
+El proyecto de la Pokédex está estructurado en tres archivos principales:
 
-Contribuir
-Si deseas contribuir a este proyecto, siéntete libre de hacer un fork y enviar solicitudes de extracción con tus mejoras.
+1. **index.html**: Este archivo contiene la estructura HTML de la aplicación Pokédex. Aquí se encuentran los elementos principales de la interfaz de usuario, como los botones de navegación y el contenedor donde se muestran los Pokémon.
+
+2. **style.css**: En este archivo CSS se definen los estilos visuales de la aplicación. Se utilizan para darle formato y diseño a los elementos HTML y hacer que la interfaz de usuario sea atractiva y fácil de usar.
+
+3. **index.js**: Este archivo JavaScript contiene la lógica de programación de la aplicación. Aquí se realizan las solicitudes a la API de Pokémon para obtener datos sobre los Pokémon y se manipula el DOM para mostrar la información en la interfaz de usuario.
+
+## Funcionalidades Principales
+
+La Pokédex ofrece las siguientes funcionalidades principales:
+
+1. **Explorar Pokémon**: Puedes navegar a través de una lista de Pokémon y ver detalles como su nombre, tipo, altura, peso y habilidades.
+
+2. **Filtrar Pokémon por Tipo**: Puedes filtrar los Pokémon por tipo utilizando los botones de navegación. Esto te permite ver solo los Pokémon de un tipo específico, como Fuego, Agua, Planta, etc.
+
+3. **Ver Todos los Pokémon**: Hay un botón especial que te permite ver todos los Pokémon sin filtrar por tipo. Esto te permite explorar la lista completa de Pokémon disponible en la aplicación.
+
+## Cómo Usar la Pokédex
+
+Para utilizar la Pokédex, simplemente sigue estos pasos:
+
+1. Abre el archivo `index.html` en tu navegador web.
+
+2. Explora los Pokémon utilizando los botones de navegación o el botón especial para ver todos los Pokémon.
+
+3. Haz clic en un Pokémon para ver más detalles, como su nombre, tipo, altura, peso y habilidades.
+
+4. Disfruta explorando la amplia variedad de Pokémon disponibles en la Pokédex!
+
+
+
